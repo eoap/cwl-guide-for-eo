@@ -15,6 +15,7 @@ RUN apt-get update -qq && \
     gdb \
     make \
     python3-pip \
+    jq \
     python${PYTHON_VERSION} && \
     rm -rf /var/lib/apt/lists/* && \
     pip install --no-cache-dir rasterio
