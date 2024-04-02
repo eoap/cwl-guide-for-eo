@@ -94,7 +94,7 @@ $graph:
     quicklook: 
       type: File
       outputBinding:
-        glob: "quicklook.jpq"
+        glob: "quicklook.jpg"
   
   baseCommand: rio
   arguments:
