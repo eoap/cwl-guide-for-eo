@@ -1,2 +1,6 @@
 std.json
 *.png
+*.jpg
+*.jpeg
+*.tif
+*.tiff

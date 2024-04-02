@@ -94,16 +94,16 @@ $graph:
     quicklook: 
       type: File
       outputBinding:
-        glob: "quicklook.png"
+        glob: "quicklook.jpq"
   
   baseCommand: rio
   arguments:
   - convert
   - -f
-  - PNG
+  - JPEG
   - valueFrom: |
       $( inputs.asset[inputs.asset_id].href )
-  - quicklook.png
+  - quicklook.jpg
 
   hints:
     DockerRequirement:
